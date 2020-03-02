@@ -55,7 +55,7 @@ ROOT_URLCONF = 'CV_MAKER_DJANGO.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'cv_maker/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
